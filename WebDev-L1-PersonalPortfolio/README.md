@@ -42,3 +42,8 @@ React, Vite, Three.js, React Three Fiber, Drei, Tailwind CSS/PostCSS, and Lucide
 ## Internship demo
 
 Record an end-to-end walkthrough showing the site at desktop and mobile widths. Begin with a two-second static title card displaying: **Abdulrahman Elsaid Mohammed · Web Development and Designing · Personal Portfolio**. Add the demo video link and screenshots here before submission.
+
+## Screenshots
+
+- Desktop: [screenshots/desktop.png](screenshots/desktop.png)
+- Mobile: [screenshots/mobile.png](screenshots/mobile.png)

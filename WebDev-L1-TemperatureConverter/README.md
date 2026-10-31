@@ -22,3 +22,9 @@ The input is first converted to Kelvin. Celsius is `K − 273.15`; Fahrenheit is
 ## Demo checklist
 
 Show conversions from each starting scale, a decimal input, and the below-absolute-zero error. Start with a two-second title card: Abdulrahman Elsaid Mohammed · Web Development and Designing · Temperature Converter.
+
+## Screenshots
+
+- Desktop: [screenshots/desktop.png](screenshots/desktop.png)
+- Mobile: [screenshots/mobile.png](screenshots/mobile.png)
+- Conversion result: [screenshots/conversion-result.png](screenshots/conversion-result.png)

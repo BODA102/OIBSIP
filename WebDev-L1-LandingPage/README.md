@@ -8,7 +8,7 @@ Open `index.html` in a modern browser. The page uses semantic HTML and CSS only;
 
 ## Features
 
-- Sticky-position-free, clear navigation with three in-page links
+- Sticky navigation with three in-page links
 - Hero message and call to action
 - Philosophy, featured journeys, and journal sections
 - Contact and social placeholders in the footer
@@ -18,3 +18,8 @@ Open `index.html` in a modern browser. The page uses semantic HTML and CSS only;
 ## Demo checklist
 
 Record the page at desktop and mobile widths. Start with a two-second title card: Abdulrahman Elsaid Mohammed · Web Development and Designing · Landing Page.
+
+## Screenshots
+
+- Desktop: [screenshots/desktop.png](screenshots/desktop.png)
+- Mobile: [screenshots/mobile.png](screenshots/mobile.png)
