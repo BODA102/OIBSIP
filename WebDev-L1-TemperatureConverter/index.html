@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Convert temperatures between Celsius, Fahrenheit, and Kelvin.">
+  <title>Degree — Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#home"><span class="brand-icon">°</span> degree</a><span class="top-note">A LITTLE CLARITY FOR THE FORECAST</span><a class="about-link" href="#how-it-works">How it works <span>↗</span></a></header>
+  <main id="home">
+    <section class="converter-wrap"><div class="intro"><p class="eyebrow"><span></span> THE EVERYDAY CONVERTER</p><h1>Temperature,<br><em>translated.</em></h1><p>Move between Celsius, Fahrenheit, and Kelvin with a little less mental arithmetic.</p></div>
+      <form class="converter" id="converter-form" novalidate>
+        <div class="form-heading"><div><span class="step">01</span><h2>Your starting point</h2></div><span class="live-dot">READY</span></div>
+        <label for="temperature">Temperature value</label>
+        <div class="input-row"><input id="temperature" name="temperature" type="number" step="any" inputmode="decimal" placeholder="e.g. 22" aria-describedby="input-error"><label class="sr-only" for="unit">Starting unit</label><select id="unit" name="unit"><option value="C">°C</option><option value="F">°F</option><option value="K">K</option></select></div>
+        <p class="error" id="input-error" role="alert" aria-live="polite"></p>
+        <button type="submit">Convert temperature <span>↗</span></button>
+        <div class="results" id="results" aria-live="polite" aria-label="Converted temperatures"><div class="result-heading"><span class="step">02</span><span>YOUR CONVERSIONS</span></div><div class="result-grid"><div class="result-card"><span>CELSIUS</span><strong id="result-c">—</strong><small>°C</small></div><div class="result-card"><span>FAHRENHEIT</span><strong id="result-f">—</strong><small>°F</small></div><div class="result-card"><span>KELVIN</span><strong id="result-k">—</strong><small>K</small></div></div><p class="result-context" id="result-context">Enter a value to see all three scales.</p></div>
+      </form>
+    </section>
+    <section class="explain" id="how-it-works"><div class="explain-title"><p class="eyebrow">THREE SCALES, ONE PLACE</p><h2>Same feeling.<br><em>Different numbers.</em></h2></div><div class="scale-list"><article><span class="scale-symbol">°C</span><div><h3>Celsius</h3><p>Water freezes at 0° and boils at 100° at standard pressure. Common in everyday life around the world.</p></div></article><article><span class="scale-symbol">°F</span><div><h3>Fahrenheit</h3><p>Water freezes at 32° and boils at 212°. Often used for weather and cooking in the United States.</p></div></article><article><span class="scale-symbol">K</span><div><h3>Kelvin</h3><p>An absolute temperature scale used in science. Its zero point is absolute zero: −273.15°C.</p></div></article></div></section>
+    <section class="formula-note"><span class="formula-icon">∑</span><p>Every conversion starts by finding the same point on the Kelvin scale. Values below absolute zero are not physically possible.</p></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-icon">°</span> degree</a><span>Built for clear thinking.</span><span>© 2026 · Temperature Converter</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
